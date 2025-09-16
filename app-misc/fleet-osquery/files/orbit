@@ -1,0 +1,3 @@
+#/bin/sh
+export `cat /etc/default/orbit | xargs`
+/opt/orbit/bin/orbit/orbit
